@@ -1,0 +1,63 @@
+
+body { background-color: rgb(19, 18, 18);
+
+}
+
+#titulo { font-size: 70px;
+          text-align: center;
+          font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+          color: white;
+}
+
+.enlaces{ font-size: medium;
+          margin: 98px;
+          color: white;
+
+}
+
+
+
+
+.animales { font-size: 60px;
+            text-align: center;
+            margin-top: 50x;
+            color: white;
+
+}
+.animalesnom{ font-size: 350%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 25px;
+    color: white;
+
+}
+img { height: auto;
+    width: auto;
+    max-height: 500px;
+    max-width: 500px;
+    -webkit-box-shadow: 5px -11px 15px 17px #62A0FF; 
+  box-shadow: 5px -11px 15px 17px #62A0FF;
+
+}
+
+
+.container{ margin-left: 40px;
+    
+
+}
+
+
+.parrafos { font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin: auto;
+    padding: 10%;
+    color: white;
+
+}
+
+.formularios{
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       color: white;
+       padding-left: 20px;
+
+    }
+

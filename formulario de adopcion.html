@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario de adopcion</title>
+</head>
+<body>
+    <h1> Formulario de adopcion</h1>
+
+    <h2>Datos Personales</h2>
+     <form action=""> 
+        <label for=""> Nombre(s)</label>
+        <input type="text">
+        <br>
+         <label for=""> Apellidos</label>
+         <input type="text">
+         <br>
+         <label for=""> Identificacion Oficial </label>
+         <input type="file" placeholder="Sube una foto de tu Identificacion" accept=".pdf, .docx, .png, .jpeg, .jpg">
+         <br>
+         <button type="submit">
+            Enviar
+         </button>
+         <button type="reset">
+            eliminar
+         </button>
+         <br>
+         <label for=""> Domicilio </label>
+         <input type="text" placeholder=" Calle y numero interior y exterior" >
+         <br>
+         <label for=""> codigo postal</label>
+         <input type="number">
+         <br>
+         <label for=""> Estado</label>
+         <input type="text">
+         <br>
+         <label for="">Municipio</label>
+         <input type="text">
+         <br>
+         <label for=""> telefono de Contacto</label>
+         <input type="text">
+     </form>
+         
+         <h2>Datos del adoptado</h2>
+         <form>
+         <label for="">Nombre </label>
+         <select name="" id="" >
+           <option value=""> 
+             simba
+           </option>
+           <option value="">
+            Morgana
+           </option>
+           <option value="">
+            Pepper
+           </option>
+           <option value="">
+            Max
+           </option>
+           <option value="">Salchichilla
+           </option>
+           </select>
+           <br>
+          <label for="">
+            edad
+          </label>
+          <input type="range">
+          <br>
+          <label for=""> Esta vacunado</label>
+          <input type="radio" name="vacunacion" placeholder="Si">
+          <input type="radio" name="vacunacion" placeholder="No">           
+        </form>
+        <br>
+        <form action="">
+         <label for=""> Puedes contarnos un poco mas sobre ti? Cuentas con otras mascotas?</label>
+         <textarea name="" id="about you" cols="30" rows="10"></textarea>
+         <br>
+         <label for=""> Dia de la adopcion</label>
+         <input type="date" name="" id="">
+         <br>
+        <label for=""> Afirmas que todos los datos son totalmente veridicos y corresponden a la
+            persona que sera responsable de la mascota
+        </label>
+        <input type="checkbox" name="Si" id=" ">
+        <br>
+        <label for=""> Si resultas ser el adoptante aceptas los terminos y condiciones de seguimiento
+            que pide el regufio de animales patitas 
+        </label>
+        <input type="checkbox" name="" id="">
+
+        
+        </form>
+
+</body>
+</html>
